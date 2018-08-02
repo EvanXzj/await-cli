@@ -1,0 +1,32 @@
+{
+  "name": "await-cli",
+  "version": "1.0.0",
+  "description": "Await execution for a given amount of seconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -c jest.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanXzj/await-cli.git"
+  },
+  "keywords": [
+    "sleep",
+    "cli",
+    "await"
+  ],
+  "author": "chuidylan <chuidylan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanXzj/await-cli/issues"
+  },
+  "homepage": "https://github.com/EvanXzj/await-cli#readme",
+  "devDependencies": {
+    "execa": "^0.10.0",
+    "jest": "^23.4.2",
+    "time-span": "^2.0.0"
+  },
+  "dependencies": {
+    "meow": "^5.0.0"
+  }
+}
