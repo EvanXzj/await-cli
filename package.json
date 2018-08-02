@@ -1,11 +1,17 @@
 {
   "name": "await-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Await execution for a given amount of seconds",
   "main": "index.js",
   "scripts": {
     "test": "jest -c jest.json"
-  },
+	},
+	"bin": {
+		"await": "index.js"
+	},
+	"files": [
+		"index.js"
+	],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EvanXzj/await-cli.git"
